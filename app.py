@@ -4,7 +4,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQA
-openai_api_key="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"
+
 def generate_response(uploaded_file, openai_api_key, query_text):
     # Load document if file is uploaded
     if uploaded_file is not None:
